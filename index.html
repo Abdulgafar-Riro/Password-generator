@@ -7,50 +7,48 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <main class="main-container">
-        <div class="container">
-            <h2>Password Generator</h2>
-    
-            <!-- Password Display -->
-            <div class="display">
-                <span id="passwordDisplay"></span>
-                <button class= "clipboard">Copy📋</button>
-            </div>
-    
-            <!-- Password Length -->
-            <div class="form-group">
-                <label for="length">Password Length:</label>
-                <input type="number" id="length" value="20" min="4" max="100">
-            </div>
-    
-            <!-- Character Options -->
-            <div class="options">
-                <label>Use Uppercase</label>
-                <input type="checkbox" id="useUpperCase" checked>
-            </div>
-            
-            <div class="options">
-                <label>Use Lowercase</label>
-                <input type="checkbox" id="useLowerCase" checked>
-            </div> 
-            
-            <div class="options">
-                <label>Use Number</label>
-                <input type="checkbox" id="useNumber" checked>
-            </div>
-                 
-            <div class="options">
-                <label>Use Symbols</label>
-                <input type="checkbox" id="useSymbols" checked>
-            </div>
-    
-            <!-- Generate Button -->
-            <button class="btn generate">Generate Password</button>
-        </div>
+    <div class="container">
+      <h2>Password Generator</h2>
 
-        <footer>WebMujahid &copy; 2025</footer>
-    </main>
-    
+      <!-- Password Display -->
+      <div class="display">
+          <span id="passwordDisplay"></span>
+          <button class= "clipboard">Copy📋</button>
+      </div>
+
+      <!-- Password Length -->
+      <div class="form-group">
+          <label for="length">Password Length:</label>
+          <input type="number" id="length" value="20" min="4" max="100">
+      </div>
+
+      <!-- Character Options -->
+      <div class="options">
+          <label>Use Uppercase</label>
+          <input type="checkbox" id="useUpperCase" checked>
+      </div>
+      
+      <div class="options">
+          <label>Use Lowercase</label>
+          <input type="checkbox" id="useLowerCase" checked>
+      </div> 
+      
+      <div class="options">
+          <label>Use Number</label>
+          <input type="checkbox" id="useNumber" checked>
+      </div>
+              
+      <div class="options">
+          <label>Use Symbols</label>
+          <input type="checkbox" id="useSymbols" checked>
+      </div>
+
+      <!-- Generate Button -->
+      <button class="btn generate">Generate Password</button>
+    </div>
+
+    <footer>WebMujahid &copy; 2025</footer>
+
     <script src="script.js"></script>
 
 </body>
